@@ -62,3 +62,25 @@ async function cargarGastos() {
 }
 
 cargarGastos();
+document.getElementById("exportarBtn").addEventListener("click", async () => {
+  const q = query(collection(db, "gastos"));
+  const querySnapshot = await getDocs(q);
+  
+  const datos = [];
+  
+  querySnapshot.forEach((doc) => {
+    datos.push({ idFirebase: doc.id, ...doc.data() });
+  });
+
+  const json = JSON.stringify(datos, null, 2);
+  const blob = new Blob([json], { type: "application/json" });
+
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "gastos_export.json";
+  a.click();
+  URL.revokeObjectURL(url);
+
+  alert("Exportación completada, se descargó gastos_export.json");
+});

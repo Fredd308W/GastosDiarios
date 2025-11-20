@@ -1,0 +1,57 @@
+[
+  {
+    "idFirebase": "13CXnlDrdJfkkJcZTNMe",
+    "monto": 500000,
+    "id": 6,
+    "descripcion": "Se compró un Ford Mustang ",
+    "fecha": "2025-11-19",
+    "tipo": "Transporte"
+  },
+  {
+    "idFirebase": "9kJWWPgSbJq3OikOGLEA",
+    "id": 5,
+    "tipo": "Renta",
+    "fecha": "2025-11-19",
+    "monto": 1200,
+    "descripcion": "Se pagó la renta"
+  },
+  {
+    "idFirebase": "WZljxdxnrOBC1zcF2IdK",
+    "descripcion": "Manzana",
+    "tipo": "Comida",
+    "fecha": "2025-11-19",
+    "id": 4,
+    "monto": 10
+  },
+  {
+    "idFirebase": "XCdmInYO5KynQTm96DKz",
+    "tipo": "Comida",
+    "id": 2,
+    "monto": 50,
+    "descripcion": "Pizza",
+    "fecha": "2025-11-15"
+  },
+  {
+    "idFirebase": "hzwtZDgFrkpfXTpqoU5w",
+    "descripcion": "Chocolate",
+    "monto": 15,
+    "tipo": "Comida",
+    "fecha": "2025-11-15"
+  },
+  {
+    "idFirebase": "mfxZ6XsnIzKXPXqP2H2M",
+    "monto": 120,
+    "descripcion": "Compra de mascota ",
+    "id": 3,
+    "fecha": "2025-11-15",
+    "tipo": "Otros"
+  },
+  {
+    "idFirebase": "vbp8Nk2TNegXKNyhh1a7",
+    "fecha": "2025-11-19",
+    "id": 7,
+    "monto": 500,
+    "descripcion": "Ida al cine",
+    "tipo": "Ocio"
+  }
+]
